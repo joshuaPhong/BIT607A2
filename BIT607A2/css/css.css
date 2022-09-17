@@ -2,8 +2,8 @@
   box-sizing: border-box;
   margin: 0;
 }
-body{
-    font-family: Arial, sans-serif;
+body {
+  font-family: Arial, sans-serif;
 }
 header {
   background-color: rgb(58, 56, 56);
@@ -27,16 +27,32 @@ header {
 .topnav a:hover {
   background-color: grey;
 }
-.topnav a:active{
+.topnav a:active {
   background-color: rgb(160, 22, 22);
 }
-.onPage{
+.onPage {
   background-color: red;
 }
 @media screen and (min-width: 800px) {
   .topnav-right {
     float: right;
   }
+}
+/* Create two equal columns that float next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  }
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 800px) {
+.column{
+  width: 100%;
+}
 }
 footer {
   text-align: left;
@@ -60,7 +76,7 @@ footer {
 .botnav a:hover {
   background-color: grey;
 }
-.botnav a:active{
+.botnav a:active {
   background-color: gray;
 }
 .copyright {
