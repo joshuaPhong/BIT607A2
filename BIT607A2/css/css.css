@@ -2,6 +2,9 @@
   box-sizing: border-box;
   margin: 0;
 }
+body{
+    font-family: Arial, sans-serif;
+}
 header {
   background-color: rgb(58, 56, 56);
   padding: 20px;
@@ -24,12 +27,11 @@ header {
 .topnav a:hover {
   background-color: grey;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
   .topnav-right {
     float: right;
   }
 }
-
 footer {
   text-align: left;
   padding: 20px;
