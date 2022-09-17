@@ -54,6 +54,13 @@ header {
   width: 100%;
 }
 }
+table.drinks{
+  width: 100%;
+}
+th.right, td.right{
+  text-align: right;
+}
+
 footer {
   text-align: left;
   padding: 20px;
