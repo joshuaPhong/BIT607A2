@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+.iframeclass {
+  position: relative;
+  width: 100%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.calendar {
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.map {
+  position: absolute;
+  display: block;
+  width: max-content;
+}
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 100%;
+}
+/* heros are open source code from w3schools. used here to form the back ground image and wwelcome text to the user*/
+/*image was sourced from google images using the advanced serch feature creative commons licence*/
+/* By &lt;a href=&quot;//commons.wikimedia.org/wiki/User:Kallerna&quot; title=&quot;User:Kallerna&quot;&gt;kallerna&lt;/a&gt; - &lt;span class=&quot;int-own-work&quot; lang=&quot;en&quot;&gt;Own work&lt;/span&gt;, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=94298133">Link</a> */
+.heroimage {
+  background-image: url("/images/medrestimg.webp");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.herotext {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1vw;
+}
+#center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mySlides {
+  display: none;
+  max-height: 500px;
+}
+.reservationform {
+  width: 100%;
+}
+
+#cssvalid {
+  float: right;
+}
+.contacthours {
+  padding: 5%;
+}
+.aboutus {
+  height: 25vh;
+}
+@media screen and (max-width: 1000px) {
+  table {
+    font-size: 1.5vw;
+  }
+  h1 {
+    font-size: 3vw;
+  }
+  a {
+    font-size: 2vw;
+  }
+  .contacthours{
+    font-size:1vw;
+  }
+  .privacy{
+    font-size: 1.5vw;
+  }
+  .heroimage{
+    max-height: 400px;
+  }
+}
+@media screen and (max-width: 800px) {
+  table {
+    font-size: 2vw;
+  }
+  h1 {
+    font-size: 5vw;
+  }
+  a {
+    font-size: 3vw;
+  }
+  .contacthours {
+    font-size: 2vw;
+  }
+  .privacy{
+    font-size: 2vw;
+  }
+  .heroimage{
+    max-height: 300px;
+  }
+}
+@media screen and (max-width: 480px) {
+  table {
+    font-size: 3vw;
+  }
+  h1 {
+    font-size: 6vw;
+  }
+  a {
+    font-size: 4vw;
+  }
+  .contacthours{
+    font-size: 3vw;
+  }
+  .privacy{
+    font-size: 3vw;
+  }
+  .heroimage{
+    max-height: 300px;
+  }
+}
