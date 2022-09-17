@@ -1,13 +1,60 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+}
+header {
+  background-color: rgb(58, 56, 56);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(97, 94, 94);
+  /* color: white; */
+}
+.topnav a {
+  float: left;
+  display: block;
+  text-align: left;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: grey;
+}
+@media screen and (min-width: 1000px) {
+  .topnav-right {
+    float: right;
+  }
 }
 
-
-
-
-
-
-
+footer {
+  text-align: left;
+  padding: 20px;
+  background-color: rgb(58, 56, 56);
+  color: white;
+}
+.botnav {
+  overflow: hidden;
+  background-color: rgb(97, 94, 94);
+  align-items: center;
+}
+.botnav a {
+  float: left;
+  display: block;
+  text-align: left;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+.botnav a:hover {
+  background-color: grey;
+}
+.copyright {
+  text-align: center;
+}
 
 .iframeclass {
   position: relative;
@@ -42,13 +89,19 @@
 /*image was sourced from google images using the advanced serch feature creative commons licence*/
 /* By &lt;a href=&quot;//commons.wikimedia.org/wiki/User:Kallerna&quot; title=&quot;User:Kallerna&quot;&gt;kallerna&lt;/a&gt; - &lt;span class=&quot;int-own-work&quot; lang=&quot;en&quot;&gt;Own work&lt;/span&gt;, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=94298133">Link</a> */
 .heroimage {
-  background-image: url("/images/medrestimg.webp");
+  background-image: url("/BIT607A2/images/medrestimg.webp");
+  background-size: cover;
   background-color: #cccccc;
   height: 500px;
+  max-width: 1000px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 .herotext {
   text-align: center;
@@ -91,13 +144,13 @@
   a {
     font-size: 2vw;
   }
-  .contacthours{
-    font-size:1vw;
+  .contacthours {
+    font-size: 1vw;
   }
-  .privacy{
+  .privacy {
     font-size: 1.5vw;
   }
-  .heroimage{
+  .heroimage {
     max-height: 400px;
   }
 }
@@ -114,10 +167,10 @@
   .contacthours {
     font-size: 2vw;
   }
-  .privacy{
+  .privacy {
     font-size: 2vw;
   }
-  .heroimage{
+  .heroimage {
     max-height: 300px;
   }
 }
@@ -131,13 +184,13 @@
   a {
     font-size: 4vw;
   }
-  .contacthours{
+  .contacthours {
     font-size: 3vw;
   }
-  .privacy{
+  .privacy {
     font-size: 3vw;
   }
-  .heroimage{
+  .heroimage {
     max-height: 300px;
   }
 }
