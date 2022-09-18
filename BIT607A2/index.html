@@ -17,11 +17,11 @@
     href="css/css.css"
     type="text/css" />
   <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
-  <!-- <link rel="preload"
+  <link rel="preload"
     fetchpriority="high"
     as="image"
-    href="/images/medrestimg.webp"
-    type="image/webp"> -->
+    href="/BIT607A2/images/medrestimg.webp"
+    type="image/webp">
 </head>
 <!--This will contain the body of the home page it will use the semantic tags header, nav, main, table and the tr(table row) th(table header) td (table data),  and footer tags for easy navigation by screen readers-->
 <!-- semantic tags have implicit ARIA roles and do not need to be defined, role="".W3C
@@ -31,12 +31,13 @@ ARIA in HTML W3C Recommendation 09 December 2021 https://www.w3.org/TR/html-aria
 <body>
   <!--The header element will contain the heading for the web page-->
   <header id="header">
-    <h1>The Haukai restaraunt testing</h1>
+    <h1>The Haukai restaraunt</h1>
   </header>
   <!--The  semantic nav element will be a container for the navigation bar-->
   <nav class="topnav">
     <!--The anchor elemnts in this list use class topnav for styling and form the links for the main navigation bar-->
-    <a href="index.html" class="onPage">Home</a>
+    <a href="index.html"
+      class="onPage">Home</a>
     <a href="/BIT607A2/pages/contact.html">Contact</a>
     <a href="/BIT607A2/pages/hours.html">Hours</a>
     <a href="/BIT607A2/pages/menu.html ">Menu</a>
@@ -45,18 +46,20 @@ ARIA in HTML W3C Recommendation 09 December 2021 https://www.w3.org/TR/html-aria
   </nav>
   <!--The main element is a container for the content of the webpage-->
   <main>
-    <hr>
+   <div class="row">
+    <div class="column">
+<h2>Welcome to the home page</h2>
+    </div>
+    <div class="column">
+<div class="heroimage"></div>
+    </div>
+   </div>
     <!--The hero image and text code are an adaption from w3schools opensource. The code is completed in css,css. It forms the background of the home pages main content-->
-    <div class="heroimage">
-      <div class="herotext">
-        <h2>Welcome to the home page</h2>
-      </div>
-    </div>
+    
+ 
+   
 
-    <hr>
-    <div class="aboutus">
-      <p>About Us</p>
-    </div>
+  
   </main>
   <!--The footer container will contain the copyright and author information-->
   <nav class="botnav">
