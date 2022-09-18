@@ -52,6 +52,7 @@ h2, h3{
   display: table;
   clear: both;
 }
+
 @media screen and (max-width: 800px) {
 .column{
   width: 100%;
@@ -95,23 +96,13 @@ footer {
 .copyright {
   text-align: center;
 }
-
-.iframeclass {
-  position: relative;
-  width: 100%;
-  padding-top: 50%;
-  padding-bottom: 50%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
-
 .calendar {
   display: block;
   top: 0;
   bottom: 0;
   left: auto;
-  position: absolute;
-  height: 100%;
+  position: relative;
+  height: 50vh !important; 
   width: 100%;
 }
 .map {
@@ -141,7 +132,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 #center {
   margin-left: auto;
