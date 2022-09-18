@@ -11,7 +11,8 @@ header {
   text-align: center;
   color: white;
 }
-h2, h3{
+h2,
+h3 {
   text-align: center;
 }
 .topnav {
@@ -46,7 +47,7 @@ h2, h3{
   float: left;
   width: 50%;
   padding: 15px;
-  }
+}
 .row::after {
   content: "";
   display: table;
@@ -54,17 +55,19 @@ h2, h3{
 }
 
 @media screen and (max-width: 800px) {
-.column{
+  .column {
+    width: 100%;
+  }
+}
+table.drinks {
   width: 100%;
 }
-}
-table.drinks{
-  width: 100%;
-}
-th.right, td.right{
+th.right,
+td.right {
   text-align: right;
 }
-th.left, td.left{
+th.left,
+td.left {
   text-align: left;
 }
 
@@ -102,7 +105,7 @@ footer {
   bottom: 0;
   left: auto;
   position: relative;
-  height: 50vh !important; 
+  height: 50vh !important;
   width: 100%;
 }
 .map {
@@ -153,7 +156,7 @@ footer {
 .contacthours {
   padding: 5%;
 }
-.privacycontainer{
+.privacycontainer {
   padding: 5%;
 }
 
