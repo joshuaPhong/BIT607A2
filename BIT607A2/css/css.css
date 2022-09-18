@@ -153,6 +153,9 @@ footer {
 .contacthours {
   padding: 5%;
 }
+.privacycontainer{
+  padding: 5%;
+}
 
 @media screen and (max-width: 1000px) {
   table {
@@ -165,10 +168,10 @@ footer {
     font-size: 2vw;
   }
   .contacthours {
-    font-size: 1vw;
+    font-size: 2vw;
   }
   .privacy {
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
   .heroimage {
     max-height: 400px;
@@ -185,10 +188,10 @@ footer {
     font-size: 3vw;
   }
   .contacthours {
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .privacy {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
   .heroimage {
     max-height: 300px;
@@ -205,10 +208,10 @@ footer {
     font-size: 4vw;
   }
   .contacthours {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .privacy {
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
   .heroimage {
     max-height: 300px;
